@@ -1,5 +1,5 @@
 # Conclusions
-###function fromOverlappingTimeline works in the same time on data with and without overlapping
+### function fromOverlappingTimeline works in the same time on data with and without overlapping
 
 3)function fromListWith. time grows faster on data with overlapping than on data without overlapping
 4)fromOverlappingTimeline works much faster than fromListwith. about 2 times faster(without overlap.) and 4 times(with overlap.)
