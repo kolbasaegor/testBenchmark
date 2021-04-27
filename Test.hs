@@ -9,7 +9,7 @@ eventCreator :: Ord t => t -> t -> p -> Event t p
 eventCreator t t' payload = Event (mkInterval t t') (payload) 
 
 eventCreatorN'withoutOverlapping :: Int -> [Event Int [Char]]
-eventCreatorN'withoutOverlapping n | n >= 0 = [eventCreator (t) (t+1) ("putin") | t <- [0 .. n-1] ]
+eventCreatorN'withoutOverlapping n | n >= 0 = [eventCreator (t) (t+1) ("SAMPLE_TEXT") | t <- [0 .. n-1] ]
 								   | otherwise = []
 
 eventCreatorN'withOverlapping :: Int -> [Event Int [Char]]
