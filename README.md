@@ -5,4 +5,6 @@
 
 3) fromOverlappingTimeline works much faster than fromListwith. about 2 times faster(without overlap.) and 4 times(with overlap.)
 
-4) if you pass the operator (\ \\) as the first function in fromListWith then time will increase slightly compared to operator (++). Most likely this is due to the fact that in order to use (\ \\) we should import Data.List, and (++) is in Prelude  
+4) if you pass the operator (\ \\) as the first function in fromListWith then time will increase slightly compared to operator (++). Most likely this is due to the fact that in order to use (\ \\) we should import Data.List, and (++) is in Prelude
+
+5) |\/| 
